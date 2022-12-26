@@ -10,17 +10,24 @@ V add frame wark and wark invaiermant
 		# gold_sack
 		# spells
 		
-	# Adventurer
-		# level
-		# profession {dnd_class}
-		# races
-		# skills proficiency
+	V Adventurer
+		V level
+		V profession {dnd_class} 
+			# add choice
+		V races
+			# add choice
+		
+		# skills
 
+	# Skills proficiency
+		# skill_choice
+	
 	# Monster
 
-	# player
-		# on to many Adventurer
-
+	V player
+		V one to many Adventurer
+		# lock adventure chice to specific player
+	
 	# Room
 		# size
 		# shape
@@ -60,7 +67,7 @@ V add frame wark and wark invaiermant
 
 
 #views
-	# add crad to each model
+	# add crad to each model - 
 		# Creture
 		# Adventurer
 		# Monster
