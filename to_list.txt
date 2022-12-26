@@ -48,6 +48,8 @@ V add frame wark and wark invaiermant
 		# Room
 		# Dungen
 
+		# player
+
 # lib
 	# creture
 		# initiative bonus
@@ -57,3 +59,13 @@ V add frame wark and wark invaiermant
 		# profession bonuses
 
 
+#views
+	# add crad to each model
+		# Creture
+		# Adventurer
+		# Monster
+
+		# Room
+		# Dungen
+
+		# player
