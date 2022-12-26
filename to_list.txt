@@ -1,0 +1,59 @@
+To do list
+
+
+V add frame wark and wark invaiermant
+
+# models
+	
+	V Creature
+		# inventory
+		# gold_sack
+		# spells
+		
+	# Adventurer
+		# level
+		# profession {dnd_class}
+		# races
+		# skills proficiency
+
+	# Monster
+
+	# player
+		# on to many Adventurer
+
+	# Room
+		# size
+		# shape
+		# monsters
+		# traps
+		# treasure
+		# discription
+		# props ? an itemes the will menefest as objects in react
+
+
+	# Dungen
+
+	# items
+		# wepeons 
+		# consumable {potion, food, etc}
+		# tools	{carpenter tools, coocking utensols, smithing tools}
+		# miscellaneous {mirror, rope, 3 foot plol, etc}
+
+# serializers
+	# add serializer for every model:
+		# Creture
+		# Adventurer
+		# Monster
+
+		# Room
+		# Dungen
+
+# lib
+	# creture
+		# initiative bonus
+		
+	# Adventurer
+		# skills bonus
+		# profession bonuses
+
+
